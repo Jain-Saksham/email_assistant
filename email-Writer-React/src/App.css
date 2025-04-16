@@ -1,0 +1,70 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .MuiContainer-root {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 40px;
+  }
+  
+  .MuiTextField-root {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .MuiFormControl-root {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .MuiButton-contained {
+    background-color: #1976d2 !important;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #115293 !important;
+  }
+  
+  .MuiButton-outlined {
+    border-color: #1976d2 !important;
+    color: #1976d2 !important;
+    transition: all 0.3s ease;
+  }
+  
+  .MuiButton-outlined:hover {
+    background-color: rgba(25, 118, 210, 0.04);
+  }
+  
+  textarea.MuiInputBase-input {
+    line-height: 1.6;
+  }
+  
+  .MuiTypography-h6 {
+    color: #34495e;
+  }
+  
+  .MuiTypography-root {
+    font-size: 1rem;
+  }
+  
+  .MuiCircularProgress-root {
+    color: #fff !important;
+  }
+  
